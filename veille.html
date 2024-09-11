@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enzo Fantapie Hamang - Portfolio</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="py-4">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="#">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Enzo</span> Fantapie Hamang
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Qui suis-je ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projets.html">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="veille.html">Veille technologique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <div class="container">
+            <h1 class="text-center">Qu'est-ce que la veille technologique ?</h1>
+            <p class="text-center">La veille technologique est un processus de mise à niveau de l'information. Il s'agit<br>
+               de se mettre à jour sur les avancées dans le monde des nouvelles technologies, car celui-ci<br>
+               progresse à une vitesse fulgurante.</p><br><br><br><br>
+            <h1 class="text-center">Comment faire sa veille technologique ?</h1>
+            <p class="text-center">Afin de réaliser une bonne veille technologique il existe différents moyens, tels que <br>
+               des agrégateurs de flux RSS, des chaines youtubes ou des newsletters.<br>
+               Pour ma part, j'utilise l'agrégateur de flux RSS Feedly puis OpenOffice Calc<br>
+               pour récupérer les informations importantes.</p>
+            
+            <div class="row mb-5 mt-5">
+                <div class="col-12 col-md-4 offset-md-1">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/veille/android.PNG" class="card-img-top" alt="image de feedly">
+                        <div class="card-body">
+                            <h5 class="card-title">Feedly</h5>
+                            <p class="card-text">Utilisation de feedly pour la veille technologique.</p>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#feedlyOffcanvas"
+                            aria-controls="feedlyOffcanvas">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="feedlyOffcanvas"
+                                aria-labelledby="Feedly">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="feedlyOffcanvas">Feedly</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                   <!-- Carousel -->
+                                   <div id="feedlyCarousel" class="carousel slide shadow h-100"
+                                   data-bs-ride="carousel" data-bs-touch="true">
+                                        <div class="carousel-inner h-100">
+                                            <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                                <img src="img/veille/android.PNG"
+                                                    class="d-block w-100" alt="Image slide 1">
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="10000">
+                                                <img src="img/veille/bootstrap.PNG"
+                                                    class="d-block w-100" alt="Image slide 2">
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="10000">
+                                                <img src="img/veille/flutter.PNG"
+                                                    class="d-block w-100" alt="Image slide 3">
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="10000">
+                                                <img src="img/veille/java.PNG"
+                                                    class="d-block w-100" alt="Image slide 4">
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="10000">
+                                                <img src="img/veille/php.PNG"
+                                                    class="d-block w-100" alt="Image slide 5">
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="10000">
+                                                <img src="img/veille/symfony.PNG"
+                                                    class="d-block w-100" alt="Image slide 6">
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="10000">
+                                                <img src="img/veille/wordpress.PNG"
+                                                    class="d-block w-100" alt="Image slide 7">
+                                            </div>
+                                        </div>
+                                    <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#feedlyCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                            data-bs-target="#feedlyCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+               
+                             
+                       
+
+
+                <div class="col-12 col-md-4 offset-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/veille/detail.PNG" class="card-img-top" alt="image de la synthèse">
+                        <div class="card-body">
+                            <h5 class="card-title">OpenOffice Calc</h5>
+                            <p class="card-text">Utilisation d'OpenOffice Calc pour synthétiser les informations recueillies sur feedly.</p>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#calc"
+                            aria-controls="calc">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="calc"
+                                aria-labelledby="calc">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="calc">Synthèse</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <img src="img/veille/detail.PNG" alt="image de la synthèse">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+                    
+                
+                
+        </div>
+    </section>
+</main>
+<footer class="border-top bg-light">
+    <div class="container py-5">
+        <div class="row gy-4 align-items-center">
+            <div class="col-12 col-md-4">
+                <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+                    <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Enzo</span> Fantapie Hamang
+                </a>
+            </div>
+            <div class="col-12 col-md-4 text-md-center">
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+                            data-bs-target="#mentionsLegales">Mentions légales</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 text-md-end">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/enzo-fantapie-hamang-0988b5297" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+                            title="LinkedIn">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mentions Légales</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2>Identité :</h2>
+                    <p>Enzo Fantapie Hamang</p>
+
+                    <h2>Coordonnées :</h2>
+                    <p>Domicile : Marseillan, 65350, 7 chemin du Turon<br>
+                        E-mail : enzofantapiehamang@gmail.com<br>
+                        Téléphone : +33 6 75 52 28 64</p>
+
+                    <h2>Informations complémentaires :</h2>
+                    <p>Directeur de la publication et de la rédaction: Enzo Fantapie Hamang<br><br>
+                        Hébergeur : <br>
+                        Site internet : <br>
+                        Adresse : </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+            </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</footer>
+</body>
+
+</html>
